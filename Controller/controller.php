@@ -21,7 +21,7 @@
 	}
 
 	function startpage(){
-		$model = new Model();
+		//$model = new Model();
 
 		$html= render_template(ROOT.DS.'View'.DS.'Pages'.DS.'startPage.php', array());
 		return $html;

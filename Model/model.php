@@ -5,7 +5,7 @@
 		private $user="DB_USER";
 		private $pass="DB_PASSWORD";
 		private $db="DB_NAME";
-		private $charset="UTF8";
+		private $charset="UTF-8";
 		private $host="DB_HOST";
 
 		function Model()
