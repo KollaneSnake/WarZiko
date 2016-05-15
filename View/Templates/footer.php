@@ -1,3 +1,3 @@
-<div>
-	Jüri Kiir 2016a.
-</div>
+<footer>
+	Jüri Kiir 2016 a.
+</footer>

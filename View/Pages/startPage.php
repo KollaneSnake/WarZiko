@@ -1,4 +1,7 @@
-<?php $title = 'Список постов'; ?>
+<?php 
+	$title = 'WarZiko';
+	$header='WarZiko';
+ ?>
 
 <?php ob_start() ?>
 
@@ -8,4 +11,4 @@
 
 <?php $content = ob_get_clean(); ?>
 
-<?php include "View/Templates/layout.php";
+<?php require_once(ROOT.DS.'View'.DS.'Templates'.DS.'layout.php'); ?>

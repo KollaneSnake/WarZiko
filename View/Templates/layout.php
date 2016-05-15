@@ -2,16 +2,22 @@
 <html>
 <head>
 	<title><?php echo $title ?></title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href='Css/style.css'>
 </head>
 <body>
+
 		<?php 
-			require_once(ROOT.DS.'View'.DS.'Templates'.DS.'header.php'); 
+			require_once(ROOT.DS.'View'.DS.'Templates'.DS.'headerNav.php'); 
 		?>
-	<div class="container">
+
+
+
+	<content>
 		<?php echo $content; ?>
-	</div>
+	</content>
+
+
 		<?php 
 			require_once(ROOT.DS.'View'.DS.'Templates'.DS.'footer.php'); 
 		?>
