@@ -63,11 +63,19 @@ nav{
 }
 content{
 	background-color: #eeeeee;
+	width: 100%;
 }
 footer{
 	background-color: #393e46;
 	text-align: center;
 	color: #00adb5;
+}
+.mainContent{
+	width: 70%;
+	background-color: #eeeeee;
+}
+article p img{
+	float: left;
 }
 
 nav ul li{

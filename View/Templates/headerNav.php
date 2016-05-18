@@ -8,11 +8,11 @@
 </header>
 <nav>
 	<ul >
-		<li class="hvr-shutter-out-vertical"><a href="#">Main</a></li>
-		<li class="hvr-shutter-out-vertical"><a href="#">News</a></li>
-		<li class="hvr-shutter-out-vertical"><a href="#">Games</a></li>
-		<li class="hvr-shutter-out-vertical"><a href="#">Contact</a></li>
-		<li class="hvr-shutter-out-vertical"><a href="#">About</a></li>
+		<li class="hvr-shutter-out-vertical"><a href="../WarZiko/">Home</a></li>
+		<li class="hvr-shutter-out-vertical"><a href="news">News</a></li>
+		<li class="hvr-shutter-out-vertical"><a href="../WarZiko/games">Games</a></li>
+		<li class="hvr-shutter-out-vertical"><a href="/WarZiko/contact">Contact</a></li>
+		<li class="hvr-shutter-out-vertical"><a href="about">About</a></li>
 	</ul>
 </nav>
 
